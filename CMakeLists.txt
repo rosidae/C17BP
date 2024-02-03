@@ -7,9 +7,9 @@ add_executable(project)
 # add_library(project STATIC)
 
 function(add_subdirectories)
-  foreach (dir ${ARGN})
+  foreach(dir ${ARGN})
     add_subdirectory(${dir})
-  endforeach ()
+  endforeach()
 endfunction()
 
 add_subdirectory(src)
