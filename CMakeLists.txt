@@ -4,6 +4,7 @@ set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 add_executable(project)
+target_include_directories(project PUBLIC src)
 # add_library(project STATIC)
 
 function(add_subdirectories)
